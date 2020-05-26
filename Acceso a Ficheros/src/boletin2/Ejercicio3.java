@@ -39,19 +39,12 @@ public class Ejercicio3 {
 						par.getMetrosCuadrados()+";";
 			
 		}
-	
 		
-			
 		Ejercicio1.escribirFichero(cadena, directorio2, archivo2);
 
 				
 		//leer el contenido del fichero y mostrarlo por pantalla
 		Ejercicio1.leerFichero(directorio2, archivo2);
-		
-		
-					
-			
-			
 		
 	
 	}
