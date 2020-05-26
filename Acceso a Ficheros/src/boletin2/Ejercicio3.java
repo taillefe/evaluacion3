@@ -26,10 +26,9 @@ public class Ejercicio3 {
 		//escribir en el fichero parcelas2.txt, la cadena creada desde el ArrayList
 		String cadena ="";
 		
-		System.out.println("contenido de parcela : " + parcelas.size());		
 		
 		for (int i=0; i < parcelas.size(); i++ ) {
-				System.out.println("contenido de parcela : " + parcelas.get(i));		
+					
 				Parcela par = parcelas.get(i);
 				
 				
@@ -41,7 +40,7 @@ public class Ejercicio3 {
 			
 		}
 	
-		System.out.println("contenido de cadena : " + cadena);	
+		
 			
 		Ejercicio1.escribirFichero(cadena, directorio2, archivo2);
 
